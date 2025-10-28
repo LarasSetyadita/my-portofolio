@@ -6,15 +6,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/output.css">
 </head>
-<body class="bg-primary ">
+<body class="bg-primary">
     <!--Navigation Bar-->
-    <nav class="text-secondary absolute w-full px-20">
+    <nav class="text-secondary absolute w-full px-20 z-50">
         <div class="grid grid-cols-5 items-center py-2">
             <div class="col-span-1 font-extrabold text-2xl">Dwi Laras Setyadita</div>
-            <div class="col-span-3 flex justify-center grid-cols-3 gap-4 font-bold">
+            <div class="col-span-3 flex justify-center grid-cols-3 gap-4 font-bold text-lg">
                 <a class="grid-span-1 hover:text-accent2" href="">About Me</a>
                 <a class="grid-span-1 hover:text-accent2" href="">Project</a>
-                <a class="grid-span-1 hover:text-accent2" href="">Contact</a>   
+                <a class="grid-span-1 hover:text-accent2" href="">Contact</a>  
             </div>
             <div class="col-span-1 flex justify-end">
                 <div class="bg-accent hover:bg-accent2 hover:text-primary px-4 rounded-3xl font-bold px-2">
@@ -25,30 +25,70 @@
     </nav>
         
     <!--Page Content-->
-    <div class="mt-5 w-full z-0">
-        <div class="absolute z-10 top-32 start-40">
-            <img src="/public/images/Ellipse 3.png" alt="">
-        </div>
-        <div class="h-screen justify-center content-center flex-wrap">
+
+    <div class="mt-5 w-full">
+
+        <!--Halaman Landing -->
+
+        <section class="h-screen justify-center content-center flex-wrap relative">
+
+            <div class="absolute z-10 top-32 start-40">
+                <img src="/public/images/Ellipse 3.png" alt="">
+            </div>
+
             <div class="text-8xl font-extrabold text-secondary">
                 <div class="justify-self-center">Hi There, I'm Laras</div>
                 <div class="justify-self-center">Welcome to My Portofolio</div>
             </div>
+
             <div class="flex justify-center my-9">
                 <div class="max-w-sm grid grid-cols-2 gap-4 font-bold">
                     <a href="" class="col-span-1 bg-accent px-2  text-secondary  rounded-md hover:bg-accent2 hover:text-primary">Download My CV</a>
                     <a href="" class="col-span-1 bg-secondary px-2  text-accent  rounded-md hover:bg-accent2 hover:text-primary">Know Me as Well</a>
                 </div>
             </div>
-        </div>
-        <div class="absolute z-10 bottom-10 end-36">
-            <img src="/public/images/Group 15.png" alt="">
-        </div>
+
+            <div class="absolute z-10 bottom-10 end-36">
+                <img src="/public/images/Group 15.png" alt="">
+            </div>
+
+        </section>
+
+
+        <!--About Me-->
+
+        <section class="bg-lightaccent h-screen content-center flex-wrap relative">
+            <div class="grid grid-cols-2 mx-40 gap-5 ">
+                <div class="grid-cols-2">
+                    <img src="/public/images/about-me.png" alt="">
+                </div>
+                <div class="grid-cols-3 space-y-6 text-secondary">
+                    <h1 class="text-7xl font-extrabold">About Me</h1>
+                    <div class="space-y-5 text-lg">
+                        <p>I am <span class="font-bold">Dwi Laras Setyadita</span>, a seventh-semester Information Technology student  
+                            with a strong passion for <span class="font-bold">data analysis</span> and <span class="font-bold">machine learning</span>. 
+                        </p>
+                        <p>I have completed the Coding Camp powered by DBS Foundation with a Top 10% 
+                            (Distinction Graduate), and I actively engage in competitions and projects 
+                            both individually and in teams.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="absolute top-32 right-52"> <!--yang ini yang masih di screen pertama, harusnya di screen kedua-->
+                <img src="/public/images/Ellipse 3.png" alt="">
+            </div>
+
+            <div class="absolute bottom-44 right-1/4">
+                <img src="/public/images/Ellipse 10.png" alt="">
+            </div>
+        </section>
     </div>
     
     <!--Footer-->
     <footer class="w-full bg-secondary text-secondary text-center py-4 z-10">
-        <div class="text-[#D9D9D9]">created with love by Dwi Laras Setyadita</div>
+        <div class="text-primary">created with love by Dwi Laras Setyadita</div>
     </footer>
 </body>
 </html>
