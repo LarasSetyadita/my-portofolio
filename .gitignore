@@ -1,0 +1,24 @@
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# === Tailwind ===
+# Output build file (karena bisa digenerate ulang)
+public/css/output.css
+
+# === Environment ===
+.env
+.env.local
+.env.*.local
+
+# === OS / Editor Files ===
+.DS_Store
+Thumbs.db
+
+# === IDE Configs ===
+.vscode/
+.idea/
+*.swp
