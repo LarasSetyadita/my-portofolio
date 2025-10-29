@@ -8,7 +8,7 @@
 </head>
 <body class="bg-primary">
     <!--Navigation Bar-->
-    <nav class="text-secondary absolute w-full px-20 z-50">
+    <nav class="text-secondary w-full px-20 z-50 shadow-sm py-2 fixed bg-primary">
         <div class="grid grid-cols-5 items-center py-2">
             <div class="col-span-1 font-extrabold text-2xl">Dwi Laras Setyadita</div>
             <div class="col-span-3 flex justify-center grid-cols-3 gap-4 font-bold text-lg">
@@ -17,7 +17,7 @@
                 <a class="grid-span-1 hover:text-accent2" href="">Contact</a>  
             </div>
             <div class="col-span-1 flex justify-end">
-                <div class="bg-accent hover:bg-accent2 hover:text-primary px-4 rounded-3xl font-bold px-2">
+                <div class="bg-accent hover:bg-accent2 hover:text-primary px-5 rounded-xl font-bold py-1">
                     <a href="">Login</a>
                 </div>
             </div>
@@ -26,7 +26,7 @@
         
     <!--Page Content-->
 
-    <div class="mt-5 w-full">
+    <div class="w-full">
 
         <!--Halaman Landing -->
 
@@ -43,8 +43,8 @@
 
             <div class="flex justify-center my-9">
                 <div class="max-w-sm grid grid-cols-2 gap-4 font-bold">
-                    <a href="" class="col-span-1 bg-accent px-2  text-secondary  rounded-md hover:bg-accent2 hover:text-primary">Download My CV</a>
-                    <a href="" class="col-span-1 bg-secondary px-2  text-accent  rounded-md hover:bg-accent2 hover:text-primary">Know Me as Well</a>
+                    <a href="" class="col-span-1 bg-accent px-3 py-1 text-secondary  rounded-md hover:bg-accent2 hover:text-primary">Download My CV</a>
+                    <a href="" class="col-span-1 bg-secondary px-3 py-1 text-accent  rounded-md hover:bg-accent2 hover:text-primary">Know Me as Well</a>
                 </div>
             </div>
 
@@ -57,12 +57,12 @@
 
         <!--About Me-->
 
-        <section class="bg-lightaccent h-screen content-center flex-wrap relative">
-            <div class="grid grid-cols-2 mx-40 gap-5 ">
+        <section class="bg-lightaccent h-[85vh] flex items-center relative rounded-3xl mx-20 py-10">
+            <div class="grid grid-cols-2 mx-32 gap-5">
                 <div class="grid-cols-2">
                     <img src="/public/images/about-me.png" alt="">
                 </div>
-                <div class="grid-cols-3 space-y-6 text-secondary">
+                <div class="grid-cols-3 space-y-7 text-secondary">
                     <h1 class="text-7xl font-extrabold">About Me</h1>
                     <div class="space-y-5 text-lg">
                         <p>I am <span class="font-bold">Dwi Laras Setyadita</span>, a seventh-semester Information Technology student  
@@ -73,17 +73,97 @@
                             both individually and in teams.
                         </p>
                     </div>
+                    <div class="grid grid-cols-3 text-center gap-4 font-bold ">
+                        <div class="grid-cols-1 bg-accent content-center rounded-lg py-2">
+                            <div>Data Analyst</div>
+                        </div>
+                        <div class="grid-cols-1 bg-accent content-center rounded-lg leading-5 py-2">
+                            <div>Machine Learning Engineer</div>
+                        </div>
+                        <div class="grid-cols-1 bg-accent content-center rounded-lg py-2">
+                            <div>Web Developer</div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
-            <div class="absolute top-32 right-52"> <!--yang ini yang masih di screen pertama, harusnya di screen kedua-->
+            <div class="absolute top-20 right-52"> <!--yang ini yang masih di screen pertama, harusnya di screen kedua-->
                 <img src="/public/images/Ellipse 3.png" alt="">
             </div>
 
-            <div class="absolute bottom-44 right-1/4">
+            <div class="absolute bottom-20 right-1/4">
                 <img src="/public/images/Ellipse 10.png" alt="">
             </div>
         </section>
+
+        <!--Project-->
+        <section class="bg-primary h-screen flex justify-center items-center">
+            <div class="w-full mx-20">
+                <h1 class="text-7xl font-extrabold text-secondary mb-10">Project</h1>
+                <div class="grid grid-cols-3 gap-16 font-sans">
+
+                    <div class="col-span-1 rounded-3xl overflow-hidden bg-lightaccent">
+                        <div class="m-5">
+                            <div>
+                                <img class="rounded-3xl shadow-md" src="./images/my-portofolio.png" alt="">
+                            </div>
+                            <div class="">
+                                <div class="text-secondary my-3">
+                                    <h2 class="text-xl font-bold">MyPortofolio</h2>
+                                    <h3 class="font-semibold text-sm">As a Full-stack Engineer</h3>
+                                    <p class="text-sm">A mobile app that supports users’ self-healing with personalized generative-AI responses and calming visuals.</p>
+                                    <p class="font-semibold text-gray-800 text-sm">October 2025-Present</p>
+                                </div>
+                                <div class="my-2">
+                                    <a class="bg-accent2 px-3 py-1 rounded-xl hover:bg-secondary text-primary font-bold" href="">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-span-1 rounded-3xl overflow-hidden bg-lightaccent">
+                        <div class="m-5">
+                            <div>
+                                <img class="rounded-3xl shadow-md" src="./images/Pekan IT - TryHard - Mind Garden - Slide Deck.png" alt="">
+                            </div>
+                            <div class="">
+                                <div class="text-secondary my-3">
+                                    <h2 class="text-xl font-bold">MindGarden</h2>
+                                    <h3 class="font-semibold text-sm">As a Full-stack Engineer</h3>
+                                    <p class="text-sm">A mobile app that supports users’ self-healing with personalized generative-AI responses and calming visuals.</p>
+                                    <p class="font-semibold text-gray-800 text-sm">October 2025-Present</p>
+                                </div>
+                                <div class="my-2">
+                                    <a class="bg-accent2 px-3 py-1 rounded-xl hover:bg-secondary text-primary font-bold" href="">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-span-1 rounded-3xl overflow-hidden bg-lightaccent">
+                        <div class="m-5">
+                            <div>
+                                <img class="rounded-3xl shadow-md" src="./images/foodinary.png" alt="">
+                            </div>
+                            <div class="">
+                                <div class="text-secondary my-3">
+                                    <h2 class="text-xl font-bold">Foodinary</h2>
+                                    <h3 class="font-semibold text-sm">As a Full-stack Engineer</h3>
+                                    <p class="text-sm">A mobile app that supports users’ self-healing with personalized generative-AI responses and calming visuals.</p>
+                                    <p class="font-semibold text-gray-800 text-sm">October 2025-Present</p>
+                                </div>
+                                <div class="my-2">
+                                    <a class="bg-accent2 px-3 py-1 rounded-xl hover:bg-secondary text-primary font-bold" href="">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
     </div>
     
     <!--Footer-->
