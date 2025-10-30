@@ -9,6 +9,10 @@ module.exports = {
         accent: "#B77E23",
         lightaccent: "#C2AA71",
         accent2: "#6F2F06",
+      },
+      fontFamily: {
+        biryani: ["'Biryani'", "sans-serif"],
+        openSans: ['"Open Sans"', 'sans-serif']
       }
     },
   },
